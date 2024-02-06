@@ -81,7 +81,7 @@ const Pagination = (props) => {
                                 }}
                                 disabled={currentPage === 1}
                             >
-                                <span className="hidden sm:block">Geri</span>
+                                <span className="hidden sm:block">Prev</span>
                                 <span className="material-symbols-outlined sm:hidden font-bold text-[19px]">keyboard_arrow_left</span>
                             </button>
                         </li>
@@ -124,7 +124,7 @@ const Pagination = (props) => {
                                 }}
                                 disabled={currentPage === Math.ceil(totalCount / limit)}
                             >
-                                <span className="hidden sm:block">İleri</span>
+                                <span className="hidden sm:block">Next</span>
                                 <span className="material-symbols-outlined sm:hidden font-bold text-[19px]">keyboard_arrow_right</span>
                             </button>
                         </li>
